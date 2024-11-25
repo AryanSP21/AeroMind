@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B092364B3EB0A6334E31BA5 /* Pods_AeroMind_v3_AeroMind_v3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABA5F1181D46FEFB8573229 /* Pods_AeroMind_v3_AeroMind_v3UITests.framework */; };
+		5F6DF06C77F7612E471DE75C /* Pods_AeroMind_v3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6DF4EFE7AC07B64BEFDDB0 /* Pods_AeroMind_v3.framework */; };
+		8EF0E5612CBDD56C0077D625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E5572CBDD56C0077D625 /* AppDelegate.swift */; };
+		8EF0E5622CBDD56C0077D625 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E55E2CBDD56C0077D625 /* SceneDelegate.swift */; };
+		8EF0E5632CBDD56C0077D625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E55F2CBDD56C0077D625 /* ViewController.swift */; };
+		8EF0E5642CBDD56C0077D625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0E5582CBDD56C0077D625 /* Assets.xcassets */; };
+		8EF0E5662CBDD56C0077D625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0E55B2CBDD56C0077D625 /* LaunchScreen.storyboard */; };
+		8EF0E5672CBDD56C0077D625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0E55D2CBDD56C0077D625 /* Main.storyboard */; };
+		8EF0E56A2CBDD56E0077D625 /* AeroMind_v3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E5682CBDD56E0077D625 /* AeroMind_v3Tests.swift */; };
+		8EF0E56E2CBDD5710077D625 /* AeroMind_v3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E56B2CBDD5710077D625 /* AeroMind_v3UITests.swift */; };
+		8EF0E56F2CBDD5710077D625 /* AeroMind_v3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E56C2CBDD5710077D625 /* AeroMind_v3UITestsLaunchTests.swift */; };
+		E6F5573643AB13A9E5B6A8B6 /* Pods_AeroMind_v3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538741F007D732CA80BB1253 /* Pods_AeroMind_v3Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EF0E5242CBDD5280077D625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EF0E5052CBDD5260077D625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EF0E50C2CBDD5260077D625;
+			remoteInfo = "AeroMind v3";
+		};
+		8EF0E52E2CBDD5280077D625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EF0E5052CBDD5260077D625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EF0E50C2CBDD5260077D625;
+			remoteInfo = "AeroMind v3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048C15247159B4CADBA858E9 /* Pods-AeroMind v3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeroMind v3Tests.release.xcconfig"; path = "Target Support Files/Pods-AeroMind v3Tests/Pods-AeroMind v3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0ABA5F1181D46FEFB8573229 /* Pods_AeroMind_v3_AeroMind_v3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AeroMind_v3_AeroMind_v3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		538741F007D732CA80BB1253 /* Pods_AeroMind_v3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AeroMind_v3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		801032EA79696737FF48F8E6 /* Pods-AeroMind v3-AeroMind v3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeroMind v3-AeroMind v3UITests.release.xcconfig"; path = "Target Support Files/Pods-AeroMind v3-AeroMind v3UITests/Pods-AeroMind v3-AeroMind v3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EF0E50D2CBDD5260077D625 /* AeroMind v3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AeroMind v3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF0E5232CBDD5280077D625 /* AeroMind v3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AeroMind v3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF0E52D2CBDD5280077D625 /* AeroMind v3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AeroMind v3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF0E5572CBDD56C0077D625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EF0E5582CBDD56C0077D625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EF0E5592CBDD56C0077D625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF0E55A2CBDD56C0077D625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EF0E55C2CBDD56C0077D625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EF0E55E2CBDD56C0077D625 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8EF0E55F2CBDD56C0077D625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EF0E5682CBDD56E0077D625 /* AeroMind_v3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroMind_v3Tests.swift; sourceTree = "<group>"; };
+		8EF0E56B2CBDD5710077D625 /* AeroMind_v3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroMind_v3UITests.swift; sourceTree = "<group>"; };
+		8EF0E56C2CBDD5710077D625 /* AeroMind_v3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroMind_v3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A170A4CBACEAFAE4174A28F4 /* Pods-AeroMind v3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeroMind v3Tests.debug.xcconfig"; path = "Target Support Files/Pods-AeroMind v3Tests/Pods-AeroMind v3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC5BA953C0916B70C37B4E8D /* Pods-AeroMind v3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeroMind v3.release.xcconfig"; path = "Target Support Files/Pods-AeroMind v3/Pods-AeroMind v3.release.xcconfig"; sourceTree = "<group>"; };
+		C46DAAB8603FACDFBFD4E799 /* Pods-AeroMind v3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeroMind v3.debug.xcconfig"; path = "Target Support Files/Pods-AeroMind v3/Pods-AeroMind v3.debug.xcconfig"; sourceTree = "<group>"; };
+		C975CEEC5C8C2CA1E286B1B7 /* Pods-AeroMind v3-AeroMind v3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeroMind v3-AeroMind v3UITests.debug.xcconfig"; path = "Target Support Files/Pods-AeroMind v3-AeroMind v3UITests/Pods-AeroMind v3-AeroMind v3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD6DF4EFE7AC07B64BEFDDB0 /* Pods_AeroMind_v3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AeroMind_v3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EF0E50A2CBDD5260077D625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6DF06C77F7612E471DE75C /* Pods_AeroMind_v3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF0E5202CBDD5280077D625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F5573643AB13A9E5B6A8B6 /* Pods_AeroMind_v3Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF0E52A2CBDD5280077D625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B092364B3EB0A6334E31BA5 /* Pods_AeroMind_v3_AeroMind_v3UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EF0E5042CBDD5260077D625 = {
+			isa = PBXGroup;
+			children = (
+				8EF0E5602CBDD56C0077D625 /* AeroMind v3 */,
+				8EF0E5692CBDD56E0077D625 /* AeroMind v3Tests */,
+				8EF0E56D2CBDD5710077D625 /* AeroMind v3UITests */,
+				8EF0E50E2CBDD5260077D625 /* Products */,
+				D614D15F5E681F98A8708165 /* Pods */,
+				F322EF9B7BF128BCC7C06136 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EF0E50E2CBDD5260077D625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EF0E50D2CBDD5260077D625 /* AeroMind v3.app */,
+				8EF0E5232CBDD5280077D625 /* AeroMind v3Tests.xctest */,
+				8EF0E52D2CBDD5280077D625 /* AeroMind v3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EF0E5602CBDD56C0077D625 /* AeroMind v3 */ = {
+			isa = PBXGroup;
+			children = (
+				8EF0E5572CBDD56C0077D625 /* AppDelegate.swift */,
+				8EF0E5582CBDD56C0077D625 /* Assets.xcassets */,
+				8EF0E5592CBDD56C0077D625 /* Info.plist */,
+				8EF0E55B2CBDD56C0077D625 /* LaunchScreen.storyboard */,
+				8EF0E55D2CBDD56C0077D625 /* Main.storyboard */,
+				8EF0E55E2CBDD56C0077D625 /* SceneDelegate.swift */,
+				8EF0E55F2CBDD56C0077D625 /* ViewController.swift */,
+			);
+			path = "AeroMind v3";
+			sourceTree = "<group>";
+		};
+		8EF0E5692CBDD56E0077D625 /* AeroMind v3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8EF0E5682CBDD56E0077D625 /* AeroMind_v3Tests.swift */,
+			);
+			path = "AeroMind v3Tests";
+			sourceTree = "<group>";
+		};
+		8EF0E56D2CBDD5710077D625 /* AeroMind v3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EF0E56B2CBDD5710077D625 /* AeroMind_v3UITests.swift */,
+				8EF0E56C2CBDD5710077D625 /* AeroMind_v3UITestsLaunchTests.swift */,
+			);
+			path = "AeroMind v3UITests";
+			sourceTree = "<group>";
+		};
+		D614D15F5E681F98A8708165 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C46DAAB8603FACDFBFD4E799 /* Pods-AeroMind v3.debug.xcconfig */,
+				BC5BA953C0916B70C37B4E8D /* Pods-AeroMind v3.release.xcconfig */,
+				C975CEEC5C8C2CA1E286B1B7 /* Pods-AeroMind v3-AeroMind v3UITests.debug.xcconfig */,
+				801032EA79696737FF48F8E6 /* Pods-AeroMind v3-AeroMind v3UITests.release.xcconfig */,
+				A170A4CBACEAFAE4174A28F4 /* Pods-AeroMind v3Tests.debug.xcconfig */,
+				048C15247159B4CADBA858E9 /* Pods-AeroMind v3Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F322EF9B7BF128BCC7C06136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6DF4EFE7AC07B64BEFDDB0 /* Pods_AeroMind_v3.framework */,
+				0ABA5F1181D46FEFB8573229 /* Pods_AeroMind_v3_AeroMind_v3UITests.framework */,
+				538741F007D732CA80BB1253 /* Pods_AeroMind_v3Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EF0E50C2CBDD5260077D625 /* AeroMind v3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF0E5362CBDD5280077D625 /* Build configuration list for PBXNativeTarget "AeroMind v3" */;
+			buildPhases = (
+				7B429AD632A3EF382D82AC78 /* [CP] Check Pods Manifest.lock */,
+				8EF0E5092CBDD5260077D625 /* Sources */,
+				8EF0E50A2CBDD5260077D625 /* Frameworks */,
+				8EF0E50B2CBDD5260077D625 /* Resources */,
+				AA2038CF045F7D1F19E514CE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AeroMind v3";
+			productName = "AeroMind v3";
+			productReference = 8EF0E50D2CBDD5260077D625 /* AeroMind v3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EF0E5222CBDD5280077D625 /* AeroMind v3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF0E53B2CBDD5280077D625 /* Build configuration list for PBXNativeTarget "AeroMind v3Tests" */;
+			buildPhases = (
+				66F6A74362590490A724FACD /* [CP] Check Pods Manifest.lock */,
+				8EF0E51F2CBDD5280077D625 /* Sources */,
+				8EF0E5202CBDD5280077D625 /* Frameworks */,
+				8EF0E5212CBDD5280077D625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EF0E5252CBDD5280077D625 /* PBXTargetDependency */,
+			);
+			name = "AeroMind v3Tests";
+			productName = "AeroMind v3Tests";
+			productReference = 8EF0E5232CBDD5280077D625 /* AeroMind v3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EF0E52C2CBDD5280077D625 /* AeroMind v3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF0E53E2CBDD5280077D625 /* Build configuration list for PBXNativeTarget "AeroMind v3UITests" */;
+			buildPhases = (
+				47C041BF6FEF2AFCA704BC81 /* [CP] Check Pods Manifest.lock */,
+				8EF0E5292CBDD5280077D625 /* Sources */,
+				8EF0E52A2CBDD5280077D625 /* Frameworks */,
+				8EF0E52B2CBDD5280077D625 /* Resources */,
+				9C8377114395480E2A04381A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EF0E52F2CBDD5280077D625 /* PBXTargetDependency */,
+			);
+			name = "AeroMind v3UITests";
+			productName = "AeroMind v3UITests";
+			productReference = 8EF0E52D2CBDD5280077D625 /* AeroMind v3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EF0E5052CBDD5260077D625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8EF0E50C2CBDD5260077D625 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					8EF0E5222CBDD5280077D625 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8EF0E50C2CBDD5260077D625;
+					};
+					8EF0E52C2CBDD5280077D625 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8EF0E50C2CBDD5260077D625;
+					};
+				};
+			};
+			buildConfigurationList = 8EF0E5082CBDD5260077D625 /* Build configuration list for PBXProject "AeroMind v3" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EF0E5042CBDD5260077D625;
+			productRefGroup = 8EF0E50E2CBDD5260077D625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EF0E50C2CBDD5260077D625 /* AeroMind v3 */,
+				8EF0E5222CBDD5280077D625 /* AeroMind v3Tests */,
+				8EF0E52C2CBDD5280077D625 /* AeroMind v3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EF0E50B2CBDD5260077D625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF0E5642CBDD56C0077D625 /* Assets.xcassets in Resources */,
+				8EF0E5662CBDD56C0077D625 /* LaunchScreen.storyboard in Resources */,
+				8EF0E5672CBDD56C0077D625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF0E5212CBDD5280077D625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF0E52B2CBDD5280077D625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47C041BF6FEF2AFCA704BC81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AeroMind v3-AeroMind v3UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F6A74362590490A724FACD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AeroMind v3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B429AD632A3EF382D82AC78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AeroMind v3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8377114395480E2A04381A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AeroMind v3-AeroMind v3UITests/Pods-AeroMind v3-AeroMind v3UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AeroMind v3-AeroMind v3UITests/Pods-AeroMind v3-AeroMind v3UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AeroMind v3-AeroMind v3UITests/Pods-AeroMind v3-AeroMind v3UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2038CF045F7D1F19E514CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AeroMind v3/Pods-AeroMind v3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AeroMind v3/Pods-AeroMind v3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AeroMind v3/Pods-AeroMind v3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EF0E5092CBDD5260077D625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF0E5612CBDD56C0077D625 /* AppDelegate.swift in Sources */,
+				8EF0E5622CBDD56C0077D625 /* SceneDelegate.swift in Sources */,
+				8EF0E5632CBDD56C0077D625 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF0E51F2CBDD5280077D625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF0E56A2CBDD56E0077D625 /* AeroMind_v3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF0E5292CBDD5280077D625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF0E56E2CBDD5710077D625 /* AeroMind_v3UITests.swift in Sources */,
+				8EF0E56F2CBDD5710077D625 /* AeroMind_v3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EF0E5252CBDD5280077D625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EF0E50C2CBDD5260077D625 /* AeroMind v3 */;
+			targetProxy = 8EF0E5242CBDD5280077D625 /* PBXContainerItemProxy */;
+		};
+		8EF0E52F2CBDD5280077D625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EF0E50C2CBDD5260077D625 /* AeroMind v3 */;
+			targetProxy = 8EF0E52E2CBDD5280077D625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EF0E55B2CBDD56C0077D625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EF0E55A2CBDD56C0077D625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8EF0E55D2CBDD56C0077D625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EF0E55C2CBDD56C0077D625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EF0E5372CBDD5280077D625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46DAAB8603FACDFBFD4E799 /* Pods-AeroMind v3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N495U8874N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AeroMind v3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AeroMind-v3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EF0E5382CBDD5280077D625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5BA953C0916B70C37B4E8D /* Pods-AeroMind v3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N495U8874N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AeroMind v3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AeroMind-v3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EF0E5392CBDD5280077D625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EF0E53A2CBDD5280077D625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EF0E53C2CBDD5280077D625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A170A4CBACEAFAE4174A28F4 /* Pods-AeroMind v3Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N495U8874N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AeroMind-v3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AeroMind v3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AeroMind v3";
+			};
+			name = Debug;
+		};
+		8EF0E53D2CBDD5280077D625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 048C15247159B4CADBA858E9 /* Pods-AeroMind v3Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N495U8874N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AeroMind-v3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AeroMind v3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AeroMind v3";
+			};
+			name = Release;
+		};
+		8EF0E53F2CBDD5280077D625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C975CEEC5C8C2CA1E286B1B7 /* Pods-AeroMind v3-AeroMind v3UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N495U8874N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AeroMind-v3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AeroMind v3";
+			};
+			name = Debug;
+		};
+		8EF0E5402CBDD5280077D625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801032EA79696737FF48F8E6 /* Pods-AeroMind v3-AeroMind v3UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N495U8874N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AeroMind-v3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AeroMind v3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EF0E5082CBDD5260077D625 /* Build configuration list for PBXProject "AeroMind v3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF0E5392CBDD5280077D625 /* Debug */,
+				8EF0E53A2CBDD5280077D625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF0E5362CBDD5280077D625 /* Build configuration list for PBXNativeTarget "AeroMind v3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF0E5372CBDD5280077D625 /* Debug */,
+				8EF0E5382CBDD5280077D625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF0E53B2CBDD5280077D625 /* Build configuration list for PBXNativeTarget "AeroMind v3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF0E53C2CBDD5280077D625 /* Debug */,
+				8EF0E53D2CBDD5280077D625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF0E53E2CBDD5280077D625 /* Build configuration list for PBXNativeTarget "AeroMind v3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF0E53F2CBDD5280077D625 /* Debug */,
+				8EF0E5402CBDD5280077D625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EF0E5052CBDD5260077D625 /* Project object */;
+}

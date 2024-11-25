@@ -1,0 +1,6 @@
+framework module Pods_AeroMind_v3_AeroMind_v3UITests {
+  umbrella header "Pods-AeroMind v3-AeroMind v3UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
